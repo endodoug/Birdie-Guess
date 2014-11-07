@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7C789EA1A0C7968008106C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C789E91A0C7968008106C1 /* AppDelegate.swift */; };
+		B7C789EC1A0C7968008106C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C789EB1A0C7968008106C1 /* ViewController.swift */; };
+		B7C789EF1A0C7968008106C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C789ED1A0C7968008106C1 /* Main.storyboard */; };
+		B7C789F11A0C7968008106C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C789F01A0C7968008106C1 /* Images.xcassets */; };
+		B7C789F41A0C7968008106C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7C789F21A0C7968008106C1 /* LaunchScreen.xib */; };
+		B7C78A001A0C7968008106C1 /* Birdie_GuessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C789FF1A0C7968008106C1 /* Birdie_GuessTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7C789FA1A0C7968008106C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7C789DC1A0C7968008106C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7C789E31A0C7968008106C1;
+			remoteInfo = "Birdie-Guess";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7C789E41A0C7968008106C1 /* Birdie-Guess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Birdie-Guess.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7C789E81A0C7968008106C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7C789E91A0C7968008106C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7C789EB1A0C7968008106C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7C789EE1A0C7968008106C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7C789F01A0C7968008106C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B7C789F31A0C7968008106C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B7C789F91A0C7968008106C1 /* Birdie-GuessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Birdie-GuessTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7C789FE1A0C7968008106C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7C789FF1A0C7968008106C1 /* Birdie_GuessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birdie_GuessTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7C789E11A0C7968008106C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7C789F61A0C7968008106C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7C789DB1A0C7968008106C1 = {
+			isa = PBXGroup;
+			children = (
+				B7C789E61A0C7968008106C1 /* Birdie-Guess */,
+				B7C789FC1A0C7968008106C1 /* Birdie-GuessTests */,
+				B7C789E51A0C7968008106C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7C789E51A0C7968008106C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7C789E41A0C7968008106C1 /* Birdie-Guess.app */,
+				B7C789F91A0C7968008106C1 /* Birdie-GuessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7C789E61A0C7968008106C1 /* Birdie-Guess */ = {
+			isa = PBXGroup;
+			children = (
+				B7C789E91A0C7968008106C1 /* AppDelegate.swift */,
+				B7C789EB1A0C7968008106C1 /* ViewController.swift */,
+				B7C789ED1A0C7968008106C1 /* Main.storyboard */,
+				B7C789F01A0C7968008106C1 /* Images.xcassets */,
+				B7C789F21A0C7968008106C1 /* LaunchScreen.xib */,
+				B7C789E71A0C7968008106C1 /* Supporting Files */,
+			);
+			path = "Birdie-Guess";
+			sourceTree = "<group>";
+		};
+		B7C789E71A0C7968008106C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7C789E81A0C7968008106C1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7C789FC1A0C7968008106C1 /* Birdie-GuessTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7C789FF1A0C7968008106C1 /* Birdie_GuessTests.swift */,
+				B7C789FD1A0C7968008106C1 /* Supporting Files */,
+			);
+			path = "Birdie-GuessTests";
+			sourceTree = "<group>";
+		};
+		B7C789FD1A0C7968008106C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7C789FE1A0C7968008106C1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7C789E31A0C7968008106C1 /* Birdie-Guess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7C78A031A0C7968008106C1 /* Build configuration list for PBXNativeTarget "Birdie-Guess" */;
+			buildPhases = (
+				B7C789E01A0C7968008106C1 /* Sources */,
+				B7C789E11A0C7968008106C1 /* Frameworks */,
+				B7C789E21A0C7968008106C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Birdie-Guess";
+			productName = "Birdie-Guess";
+			productReference = B7C789E41A0C7968008106C1 /* Birdie-Guess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7C789F81A0C7968008106C1 /* Birdie-GuessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7C78A061A0C7968008106C1 /* Build configuration list for PBXNativeTarget "Birdie-GuessTests" */;
+			buildPhases = (
+				B7C789F51A0C7968008106C1 /* Sources */,
+				B7C789F61A0C7968008106C1 /* Frameworks */,
+				B7C789F71A0C7968008106C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7C789FB1A0C7968008106C1 /* PBXTargetDependency */,
+			);
+			name = "Birdie-GuessTests";
+			productName = "Birdie-GuessTests";
+			productReference = B7C789F91A0C7968008106C1 /* Birdie-GuessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7C789DC1A0C7968008106C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Doug Harper";
+				TargetAttributes = {
+					B7C789E31A0C7968008106C1 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					B7C789F81A0C7968008106C1 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = B7C789E31A0C7968008106C1;
+					};
+				};
+			};
+			buildConfigurationList = B7C789DF1A0C7968008106C1 /* Build configuration list for PBXProject "Birdie-Guess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7C789DB1A0C7968008106C1;
+			productRefGroup = B7C789E51A0C7968008106C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7C789E31A0C7968008106C1 /* Birdie-Guess */,
+				B7C789F81A0C7968008106C1 /* Birdie-GuessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7C789E21A0C7968008106C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C789EF1A0C7968008106C1 /* Main.storyboard in Resources */,
+				B7C789F41A0C7968008106C1 /* LaunchScreen.xib in Resources */,
+				B7C789F11A0C7968008106C1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7C789F71A0C7968008106C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7C789E01A0C7968008106C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C789EC1A0C7968008106C1 /* ViewController.swift in Sources */,
+				B7C789EA1A0C7968008106C1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7C789F51A0C7968008106C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C78A001A0C7968008106C1 /* Birdie_GuessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7C789FB1A0C7968008106C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7C789E31A0C7968008106C1 /* Birdie-Guess */;
+			targetProxy = B7C789FA1A0C7968008106C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7C789ED1A0C7968008106C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7C789EE1A0C7968008106C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7C789F21A0C7968008106C1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7C789F31A0C7968008106C1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7C78A011A0C7968008106C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7C78A021A0C7968008106C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7C78A041A0C7968008106C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Birdie-Guess/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B7C78A051A0C7968008106C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Birdie-Guess/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B7C78A071A0C7968008106C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Birdie-GuessTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Birdie-Guess.app/Birdie-Guess";
+			};
+			name = Debug;
+		};
+		B7C78A081A0C7968008106C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Birdie-GuessTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Birdie-Guess.app/Birdie-Guess";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7C789DF1A0C7968008106C1 /* Build configuration list for PBXProject "Birdie-Guess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7C78A011A0C7968008106C1 /* Debug */,
+				B7C78A021A0C7968008106C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7C78A031A0C7968008106C1 /* Build configuration list for PBXNativeTarget "Birdie-Guess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7C78A041A0C7968008106C1 /* Debug */,
+				B7C78A051A0C7968008106C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B7C78A061A0C7968008106C1 /* Build configuration list for PBXNativeTarget "Birdie-GuessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7C78A071A0C7968008106C1 /* Debug */,
+				B7C78A081A0C7968008106C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7C789DC1A0C7968008106C1 /* Project object */;
+}
