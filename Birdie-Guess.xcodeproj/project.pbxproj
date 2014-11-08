@@ -405,6 +405,7 @@
 				B7C78A051A0C7968008106C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7C78A061A0C7968008106C1 /* Build configuration list for PBXNativeTarget "Birdie-GuessTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				B7C78A081A0C7968008106C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

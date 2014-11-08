@@ -9,10 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var currentValue🐦 = 0
+    var targetValue = 0
+    
+    @IBOutlet weak var slider: UISlider!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        startNewRound()
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,13 +26,28 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showAlert() {
-        let alert = UIAlertController(title: "Hello World", message: "My first App with GitHub", preferredStyle: .Alert)
+        
+        let message = "The value of your Birdie is... \(currentValue🐦)" + "\nThe target value is \(targetValue)."
+        
+        let alert = UIAlertController(title: "Hello World", message: message, preferredStyle: .Alert)
         
         let action = UIAlertAction(title: "Awesome", style: .Default, handler: nil)
         
         alert.addAction(action)
         
         presentViewController(alert, animated: true, completion: nil)
+        
+        startNewRound()
+    }
+    
+    @IBAction func sliderMoved🐦(slider: UISlider) {
+        currentValue🐦 = lroundf(slider.value)
+    }
+    
+    func startNewRound() {
+        targetValue = 1 + Int(arc4random_uniform(100))
+        currentValue🐦 = 50
+        slider.value = Float(currentValue🐦)
     }
 }
 
