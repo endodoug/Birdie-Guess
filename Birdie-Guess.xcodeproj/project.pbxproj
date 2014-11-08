@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7036FA81A0ECC0B00A481C3 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7036FA71A0ECC0B00A481C3 /* AboutViewController.swift */; };
 		B7C789EA1A0C7968008106C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C789E91A0C7968008106C1 /* AppDelegate.swift */; };
 		B7C789EC1A0C7968008106C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C789EB1A0C7968008106C1 /* ViewController.swift */; };
 		B7C789EF1A0C7968008106C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C789ED1A0C7968008106C1 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B7036FA71A0ECC0B00A481C3 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		B7C789E41A0C7968008106C1 /* Birdie-Guess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Birdie-Guess.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C789E81A0C7968008106C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7C789E91A0C7968008106C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				B7C789E91A0C7968008106C1 /* AppDelegate.swift */,
 				B7C789EB1A0C7968008106C1 /* ViewController.swift */,
 				B7C789ED1A0C7968008106C1 /* Main.storyboard */,
+				B7036FA71A0ECC0B00A481C3 /* AboutViewController.swift */,
 				B7C789F01A0C7968008106C1 /* Images.xcassets */,
 				B7C789F21A0C7968008106C1 /* LaunchScreen.xib */,
 				B7C789E71A0C7968008106C1 /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7036FA81A0ECC0B00A481C3 /* AboutViewController.swift in Sources */,
 				B7C789EC1A0C7968008106C1 /* ViewController.swift in Sources */,
 				B7C789EA1A0C7968008106C1 /* AppDelegate.swift in Sources */,
 			);
