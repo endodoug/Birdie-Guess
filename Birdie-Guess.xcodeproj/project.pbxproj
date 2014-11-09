@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		B7036FA81A0ECC0B00A481C3 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7036FA71A0ECC0B00A481C3 /* AboutViewController.swift */; };
 		B7036FAA1A0EE26400A481C3 /* BirdieGuess.html in Resources */ = {isa = PBXBuildFile; fileRef = B7036FA91A0EE26400A481C3 /* BirdieGuess.html */; };
+		B710CE651A10087F00707CFB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B710CE631A10087F00707CFB /* Default-568h@2x.png */; };
+		B710CE661A10087F00707CFB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B710CE641A10087F00707CFB /* Default@2x.png */; };
 		B7C789EA1A0C7968008106C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C789E91A0C7968008106C1 /* AppDelegate.swift */; };
 		B7C789EC1A0C7968008106C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C789EB1A0C7968008106C1 /* ViewController.swift */; };
 		B7C789EF1A0C7968008106C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C789ED1A0C7968008106C1 /* Main.storyboard */; };
 		B7C789F11A0C7968008106C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C789F01A0C7968008106C1 /* Images.xcassets */; };
-		B7C789F41A0C7968008106C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7C789F21A0C7968008106C1 /* LaunchScreen.xib */; };
 		B7C78A001A0C7968008106C1 /* Birdie_GuessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C789FF1A0C7968008106C1 /* Birdie_GuessTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,13 +31,14 @@
 /* Begin PBXFileReference section */
 		B7036FA71A0ECC0B00A481C3 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		B7036FA91A0EE26400A481C3 /* BirdieGuess.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BirdieGuess.html; sourceTree = "<group>"; };
+		B710CE631A10087F00707CFB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B710CE641A10087F00707CFB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B7C789E41A0C7968008106C1 /* Birdie-Guess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Birdie-Guess.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C789E81A0C7968008106C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7C789E91A0C7968008106C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7C789EB1A0C7968008106C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B7C789EE1A0C7968008106C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7C789F01A0C7968008106C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B7C789F31A0C7968008106C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B7C789F91A0C7968008106C1 /* Birdie-GuessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Birdie-GuessTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C789FE1A0C7968008106C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7C789FF1A0C7968008106C1 /* Birdie_GuessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birdie_GuessTests.swift; sourceTree = "<group>"; };
@@ -81,13 +83,14 @@
 		B7C789E61A0C7968008106C1 /* Birdie-Guess */ = {
 			isa = PBXGroup;
 			children = (
+				B710CE631A10087F00707CFB /* Default-568h@2x.png */,
+				B710CE641A10087F00707CFB /* Default@2x.png */,
 				B7036FA91A0EE26400A481C3 /* BirdieGuess.html */,
 				B7C789E91A0C7968008106C1 /* AppDelegate.swift */,
 				B7C789EB1A0C7968008106C1 /* ViewController.swift */,
 				B7C789ED1A0C7968008106C1 /* Main.storyboard */,
 				B7036FA71A0ECC0B00A481C3 /* AboutViewController.swift */,
 				B7C789F01A0C7968008106C1 /* Images.xcassets */,
-				B7C789F21A0C7968008106C1 /* LaunchScreen.xib */,
 				B7C789E71A0C7968008106C1 /* Supporting Files */,
 			);
 			path = "Birdie-Guess";
@@ -199,8 +202,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7C789EF1A0C7968008106C1 /* Main.storyboard in Resources */,
+				B710CE651A10087F00707CFB /* Default-568h@2x.png in Resources */,
+				B710CE661A10087F00707CFB /* Default@2x.png in Resources */,
 				B7036FAA1A0EE26400A481C3 /* BirdieGuess.html in Resources */,
-				B7C789F41A0C7968008106C1 /* LaunchScreen.xib in Resources */,
 				B7C789F11A0C7968008106C1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,14 +254,6 @@
 				B7C789EE1A0C7968008106C1 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B7C789F21A0C7968008106C1 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B7C789F31A0C7968008106C1 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
