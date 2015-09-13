@@ -1,7 +1,3 @@
-<p align="center">
-  <img src= "https://github.com/endodoug/Birdie-Guess/blob/master/Birdie-Guess/Images.xcassets/AppIcon.appiconset/Icon-120-1.png"
-</p>
-
 Birdie Guess
 ======
 
