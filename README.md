@@ -1,5 +1,10 @@
+<p align="center">
+  <img src= "https://github.com/endodoug/Birdie-Guess/blob/master/Birdie-Guess/Images.xcassets/AppIcon.appiconset/Icon-120-1.png"
+</p>
+
 Birdie Guess
 ======
+
 **Birdie Guess** is a simple time-waster. Move your bird to the correct value to earn points. Play against your family or friend to see who can get the highest total. This game keeps track of points scored and rounds played. This is the first app I made using Swift. It may not be a complicated game, but it's polished and done right. 
 
 #### Screenshot
@@ -27,16 +32,13 @@ Birdie Guess
 * [Contributors](https://github.com/endodoug/Birdie-Guess/graphs/contributors)
 
 ### Third party libraries
-* see [LIBRARIES](https://github.com/endodoug/Birdie-Guess/blob/master/LIBRARIES.md) files
+* None for this app.
 
 ## License 
 * see [LICENSE](https://github.com/endodoug/Birdie-Guess/blob/master/LICENSE.md) file
 
 ## Version 
 * Version 1.0
-
-## How-to use this code
-* see [INSTRUCTIONS](https://github.com/username/appname/blob/master/INSTRUCTIONS.md) file
 
 ## Contact
 #### Doug Harper
